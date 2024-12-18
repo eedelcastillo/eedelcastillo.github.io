@@ -18,19 +18,26 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Elijah DelCastillo's Audio Portfolio
-email: eedelcastillo2254@gmail.com
+title: Elijah DelCastillo
 description: >- # this means to ignore newlines until "baseurl:"
  To all potential employers, you can find samples of my work here from
  sound effects to compositions.
+ 
+ Click the icons below for business inquiry platforms.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: T4kuTunes_
 linkedin_username: Elijah DelCastillo
+gmail_username: eedelcastillo2254@gmail.com
 
 # Build settings
 #theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9
+
+#sidebar
+accent_image: /assets/img/sidebar-bg.jpg
+accent_color: rgb(79,177,186)
+
 plugins:
   - jekyll-feed
 
