@@ -29,7 +29,7 @@ twitter_username: T4kuTunes_
 linkedin_username: Elijah DelCastillo
 
 # Build settings
-theme: jekyll-theme-chirpy
+theme: jekyll-theme-hydejack
 plugins:
   - jekyll-feed
 
