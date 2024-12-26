@@ -25,10 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
  
  Click the icons below for business inquiry platforms.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: T4kuTunes_
-linkedin_username: Elijah DelCastillo
-gmail_username: eedelcastillo2254@gmail.com
+url: "https://eedelcastillo.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 #theme: jekyll-theme-hydejack
@@ -39,13 +36,30 @@ accent_image: none
 accent_image: /assets/img/sidebar-bg.jpg
 accent_color: rgb(79,177,186)
 
+favicon: /me.ico
+apple_touch_icon: /assets/img/me.png
+
 #fonts
 font:         Montserrat, Helvetica, Arial, sans-serif
 font_heading: Roboto Slab, Helvetica, Arial, sans-serif
 google_fonts: Roboto+Slab:700|Noto+Sans:400,400i,700,700i
 
+#self_image
+author:
+  name:  Elijah DelCastillo
+  email: eedelcastillo2254@gmail.com
+  about: |
+   Hi, I'm Elijah DelCastillo....
+  picture:  /assets/img/me.jpg
+  social:
+    twitter: T4kuTunes_
+    Linkedin: https://www.linkedin.com/in/elijah-delcastillo-859765265/
+    email: eedelcastillo2254@gmail.com
+
+
 plugins:
   - jekyll-feed
+  - jekyll-avatar
 
 # Exclude from processing.
 # The following items will not be processed, by default.
